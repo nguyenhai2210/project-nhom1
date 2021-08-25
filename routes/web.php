@@ -13,16 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
-Route::get('/student', function () {
-    return view('manage.student');
-});
-Route::get('/index',function() {
-    return view('index',['content'=>'Chào mừng đến với trình quản lý 
-    học phí']);
-});
-
-Route::get('/',function(){
-    return view('manage.dashboard');
+Route::get('/', function () {
+    return view('master');
 });
