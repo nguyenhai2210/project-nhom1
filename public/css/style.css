@@ -1,0 +1,17 @@
+body{
+    background-color: #EEE;
+}
+#wrap{
+    background-color: white;
+    min-height: 100vh;
+    padding: 0;
+    position: relative;
+}
+#navbar{
+    margin-left: 10vh;
+    font-size: larger;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
