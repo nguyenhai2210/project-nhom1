@@ -33,7 +33,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
                 <div class="sidebar-brand-icon ">
-                    <img width="200px" src="https://lh3.googleusercontent.com/proxy/g4OdXztlvg1fubqQz8zlRoTD0iE8nwuWAkA8UOLx1rlxqLWhNhQGdAAcRAmsztevwQP4llLgxg6ax4bJxfy9X_C2YWVI9qwERIB2pNYBsR7SymOxpTyIOIbG9A" >
+                    <img width="225px" height="100px" src="https://www.bkacad.com/images/config/z2100070157967_78b4507a4b4b309b4dc866a23b6ed38c_1601355188.jpg" >
                 </div>
             </a>
 
