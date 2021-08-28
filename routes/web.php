@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\myController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('master');
+// Route::get('/', function () {
+//     return view('master');
+// });
+
+Route::get('/',[myController::class,'home']);
+Route::get('/create',function(){
+    return view ('layout.insert');
 });
+Route::post('/create',[myController::class,'createBranch']);
+

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div style="margin-left:500px">
-        <h1>Thêm ngành </h1>
+        <h1>Sửa ngành</h1>
     <form method="POST">
         @csrf
         <input type="text" name="MaN" placeholder="Nhập mã ngành"><br>
